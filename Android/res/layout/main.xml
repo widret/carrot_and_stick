@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+        <AbsoluteLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+
+                <ImageView
+                        android:id ="@+id/weather_image"
+                        android:layout_width="65dp" android:layout_height="65dp"
+                        android:layout_x="30dp" android:layout_y="475dp"
+                       ></ImageView>
+
+                <TextView
+                       android:id ="@+id/temp"
+                        android:text="℃"
+                        android:layout_width="80dp" android:layout_height="50dp"
+                        android:layout_x="100dp" android:layout_y="500dp"
+                        android:textSize="23sp"
+                        android:textColor="#000000"/>
+
+                <ImageView
+                        android:id ="@+id/food_image"
+                        android:layout_width="100dp" android:layout_height="100dp"
+                        android:layout_x="202dp" android:layout_y="295dp"
+                        ></ImageView>
+
+                <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+                           android:src="@drawable/background"></ImageView>
+
+                <TextView
+                        android:id ="@+id/name"
+                        android:text="さん"
+                        android:layout_width="110dp" android:layout_height="50dp"
+                        android:layout_x="45dp" android:layout_y="430dp"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+
+                <TextView
+                        android:id ="@+id/static4"
+                        android:text="もう少しで・・・"
+                        android:layout_width="120dp" android:layout_height="20dp"
+                        android:layout_x="183dp" android:layout_y="180dp"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+
+                <TextView
+                        android:id ="@+id/food_name"
+                        android:text=""
+                        android:layout_width="130dp" android:layout_height="50dp"
+                        android:layout_x="183dp" android:layout_y="205dp"
+                        android:textSize="18sp"
+                        android:textColor="#000000"/>
+
+                <TextView
+                        android:id ="@+id/static5"
+                        android:text="が食べられるよ！"
+                        android:layout_width="120dp" android:layout_height="20dp"
+                        android:layout_x="183dp" android:layout_y="260dp"
+                        android:textSize="15sp"
+                        android:textColor="#000000"/>
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="365dp"
+                        android:layout_height="140dp"
+                        >
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="本日の目標消費カロリー"
+                                android:id="@+id/static1" android:layout_gravity="center_horizontal"
+                                android:paddingTop="23dp"
+                                android:textSize="21sp"
+                                android:textColor="#ffffff"/>
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kcal"
+                                android:id="@+id/calorie" android:layout_gravity="center_horizontal"
+                                android:paddingTop="33dp"
+                                android:textSize="40sp"
+                                android:textColor="#ffffff"/>
+                </LinearLayout>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="現在の消費カロリー"
+                        android:id="@+id/static2" android:layout_gravity="center_horizontal"
+                        android:paddingTop="430dp"
+                        android:paddingLeft="180dp"
+                        android:textSize="15sp"
+                        android:textColor="#ffffff"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kcal"
+                        android:id="@+id/static3" android:layout_gravity="center_horizontal"
+                        android:paddingTop="500dp"
+                        android:paddingLeft="260dp"
+                        android:textSize="23sp"
+                        android:textColor="#000000"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:id="@+id/total_calorie" android:layout_gravity="center_horizontal"
+                        android:paddingTop="470dp"
+                        android:paddingLeft="210dp"
+                        android:textSize="30sp"
+                        android:textColor="#000000"/>
+
+                <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                </LinearLayout>
+        </AbsoluteLayout>
+</LinearLayout>
